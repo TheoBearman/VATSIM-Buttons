@@ -35,7 +35,7 @@ class="btn btn-primary getMetarButtons hvr-float-shadow" data-location = "***AER
 
 To add a button using data parsed from the `VATSIM Data file`, you will need to make a seperate `.php` file for that particular data set and then add a new script to the `index.php` file in order to run it. More details on how to do this can be found on the VatsimPHP project page [here](https://github.com/skymeyer/Vatsimphp).
 
-## Thanks to
+## With Thanks To
 
-* Skymeyer
-* Anthony Lawrence
+* Skymeyer.
+* Anthony Lawrence.
