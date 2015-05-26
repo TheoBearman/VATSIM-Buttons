@@ -1,0 +1,11 @@
+build
+vendor
+coverage
+api
+phpunit.xml
+composer.lock
+.project
+.buildpath
+.settings
+app/cache/*
+app/logs/*

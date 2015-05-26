@@ -1,0 +1,5 @@
+{
+    "require": {
+        "skymeyer/vatsimphp": "1.0.*"
+    }
+}
