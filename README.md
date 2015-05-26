@@ -20,3 +20,15 @@ Or add vatsimphp manually to your composer.json of your current project:
     }
 }
 ```
+
+Next, setup a cronjob to run the `vatcron.php` file every 5 minutes.
+
+## Usage
+
+This basic setup gives you uttons for METARs from a range of aerodromes. To add a button for a new airport, add this to your `index.php` file:
+
+``` bash
+<li><button style="height: 40px;" class="btn btn-primary getMetarButtons hvr-float-shadow" data-location = "***AERODROME ICAO HERE***">***AERODROME NAME HERE***</button></li>
+```
+
+
