@@ -25,7 +25,7 @@ Next, setup a cronjob to run the `vatcron.php` file every 5 minutes.
 
 ## Usage
 
-This basic setup gives you uttons for METARs from a range of aerodromes. To add a button for a new airport, add this to your `index.php` file:
+This basic setup gives you buttons for METARs from a range of aerodromes. To add a button for a new airport, add this to your `index.php` file:
 
 ``` bash
 <li><button style="height: 40px;" 
