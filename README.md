@@ -29,9 +29,7 @@ This basic setup gives you uttons for METARs from a range of aerodromes. To add 
 
 ``` bash
 <li><button style="height: 40px;" 
-
 class="btn btn-primary getMetarButtons hvr-float-shadow" data-location = "***AERODROME ICAO HERE***">
-
 ***AERODROME NAME HERE***</button></li>
 ```
 
