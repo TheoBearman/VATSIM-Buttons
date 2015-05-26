@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Vatsim-buttons by TheoBearman</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Vatsim-buttons</h1>
+        <p>Bootstap Buttons with VATSIM Data.</p>
+
+        <p class="view"><a href="https://github.com/TheoBearman/VATSIM-Buttons">View the Project on GitHub <small>TheoBearman/VATSIM-Buttons</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/TheoBearman/VATSIM-Buttons/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/TheoBearman/VATSIM-Buttons/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/TheoBearman/VATSIM-Buttons">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="vatsim-buttons" class="anchor" href="#vatsim-buttons" aria-hidden="true"><span class="octicon octicon-link"></span></a>VATSIM Buttons</h1>
+
+<p>These are a set of Bootstrap buttons that display the current VATSIM METAR at some selected airfields as well as a button displaying the total number of users online on the network.</p>
+
+<p>These buttons make use of <a href="https://github.com/skymeyer/Vatsimphp">Vatsimphp</a> by <a href="https://github.com/skymeyer">Skymeyer</a>.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Assuming you have already installed Composer, CD to your VATSIM Buttons folder and run:</p>
+
+<div class="highlight highlight-bash"><pre>$ composer require skymeyer/vatsimphp 1.0.<span class="pl-k">*</span></pre></div>
+
+<p>Or add vatsimphp manually to your composer.json of your current project:</p>
+
+<div class="highlight highlight-json"><pre>{
+    <span class="pl-s"><span class="pl-pds">"</span>require<span class="pl-pds">"</span></span>: {
+        <span class="pl-s"><span class="pl-pds">"</span>skymeyer/vatsimphp<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>1.0.*<span class="pl-pds">"</span></span>
+    }
+}</pre></div>
+
+<p>Next, setup a cronjob to run the <code>vatcron.php</code> file every 5 minutes.</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>This basic setup gives you buttons for METARs from a range of aerodromes. To add a button for a new airport, add this to your <code>index.php</code> file:</p>
+
+<div class="highlight highlight-bash"><pre><span class="pl-k">&lt;</span>li<span class="pl-k">&gt;&lt;</span>button style=<span class="pl-s"><span class="pl-pds">"</span>height: 40px;<span class="pl-pds">"</span></span> 
+class=<span class="pl-s"><span class="pl-pds">"</span>btn btn-primary getMetarButtons hvr-float-shadow<span class="pl-pds">"</span></span> data-location = <span class="pl-s"><span class="pl-pds">"</span>***AERODROME ICAO HERE***<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+<span class="pl-k">***</span>AERODROME NAME HERE<span class="pl-k">***</span><span class="pl-k">&lt;</span>/button<span class="pl-k">&gt;&lt;</span>/li<span class="pl-k">&gt;</span></pre></div>
+
+<p>To add a button using data parsed from the <code>VATSIM Data file</code>, you will need to make a seperate <code>.php</code> file for that particular data set and then add a new script to the <code>index.php</code> file in order to run it. More details on how to do this can be found on the VatsimPHP project page <a href="https://github.com/skymeyer/Vatsimphp">here</a>.</p>
+
+<h2>
+<a id="thanks-to" class="anchor" href="#thanks-to" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thanks to</h2>
+
+<ul>
+<li>Skymeyer</li>
+<li>Anthony Lawrence</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/TheoBearman">TheoBearman</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
