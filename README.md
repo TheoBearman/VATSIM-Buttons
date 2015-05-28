@@ -21,7 +21,7 @@ Or add vatsimphp manually to your composer.json of your current project:
 }
 ```
 
-Next, setup a cronjob to run the `vatcron.php` file every 5 minutes.
+Next, setup a cronjob to run the `vatcron.php` file every 2 minutes.
 
 ## Usage
 
