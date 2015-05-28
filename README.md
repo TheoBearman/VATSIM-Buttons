@@ -1,7 +1,7 @@
 # VATSIM Buttons
 These are a set of Bootstrap buttons that display the current VATSIM METAR at some selected airfields as well as a button displaying the total number of users online on the network.
 
-**Note: Make sure you change `require_once 'C:\Users\Administrator\Desktop\Vatsimphp\vendor\autoload.php';` to the path to your `autoload.php` file. `C:\Users\Administrator\Desktop\Vatsimphp\vendor\autoload.php`is unique to my VPS and may be different to yours**
+**Note: Make sure you change `require_once 'C:\Users\Administrator\Desktop\Vatsimphp\vendor\autoload.php';` to the path to your `autoload.php` file. `C:\Users\Administrator\Desktop\Vatsimphp\vendor\autoload.php`is unique to my VPS and may be different to yours.**
 
 These buttons make use of [Vatsimphp](https://github.com/skymeyer/Vatsimphp) by [Skymeyer](https://github.com/skymeyer).
 
