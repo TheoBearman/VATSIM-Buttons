@@ -21,8 +21,7 @@
 h1 {text-align:left;}
 </style>
 </head>
-<body>
-    
+    <body bgcolor="#65b4d1">
     <!-- HOMEPAGE SECTION-->  
 
     <section id="Homepage">

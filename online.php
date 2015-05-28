@@ -1,7 +1,7 @@
 <?php
-require_once 'Vatsimphp\vendor\autoload.php';
+require_once 'C:\Users\Administrator\Desktop\Vatsimphp\vendor\autoload.php';
 
-$logFile = 'Vatsimphp\vendor\skymeyer\vatsimphp\app\logsusers.log';
+$logFile = 'C:\Users\Administrator\Desktop\Vatsimphp\vendor\skymeyer\vatsimphp\app\logsusers.log';
 
 $vatsim = new \Vatsimphp\VatsimData();
 $vatsim->setConfig('cacheOnly', true);
